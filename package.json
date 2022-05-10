@@ -1,0 +1,22 @@
+{
+  "name": "ssn-validator",
+  "version": "1.0.0",
+  "description": "Social Security Validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jadack/ssn-validator.git"
+  },
+  "author": "Jack Pacheco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jadack/ssn-validator/issues"
+  },
+  "homepage": "https://github.com/Jadack/ssn-validator#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
