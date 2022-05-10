@@ -2,9 +2,11 @@
   "name": "ssn-validator",
   "version": "1.0.0",
   "description": "Social Security Validator",
-  "main": "index.js",
+  "main": "build/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ts-node/register --watch-extensions ts 'test/**/*.ts'",
+    "start": "node ./lib/app.js",
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,11 @@
   },
   "homepage": "https://github.com/Jadack/ssn-validator#readme",
   "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   }
 }
