@@ -11,6 +11,12 @@
 
   La función que realiza dicha acción es llamada `validateSSNWithoutRegExp()` la cual toma como parámetro un string con el valor del ssn a validar.
 
+### Aplicación de Consola
+  Para el uso del validador y sus funciones se debe ejecutar la aplicación de consola, la misma posee una interfaz hecha en TypeScript para el uso de la función `validateSocialSecurityNumber()`, para ejecutar la misma debemos realizar los siguientes pasos:
+
+  - Ejecutamos `npm run build`, esto creará un folder llamado build que es donde están los archivos de la aplicación.
+  - Ejecutamos `npm run start` y disfrutamos de SSN Validator.
+
 ## Pruebas
   Para correr las pruebas unitarias definidas dentro del proyecto sólo se debe ejecutar el comando:
 
